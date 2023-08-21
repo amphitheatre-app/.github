@@ -2,6 +2,8 @@
 
 Welcome to the behind-the-scenes home of [Amphitheatre](https://amphitheatre.app)!
 
+Amphitheatre is an open source developer platform that facilitates continuous development of applications and microservices. You can iterate your application source code locally, then deploy to a local or remote Kubernetes cluster, just like docker build && kubectl apply or docker-compose up. Amphitheatre handles the workflow of building, pushing, and deploying applications. It also provides building blocks and describes customization of CI/CD pipelines. It is written in Rust, with the Axum framework.
+
 Our project is powered by several different repositories, which you're free to browse and explore.
 Each component has a repository of its own (e.g.  [amphitheatre-app/amphitheatre](https://github.com/amphitheatre-app/amphitheatre) ) and one or more example repositories (e.g. [amp-example-go](https://github.com/amphitheatre-app/amp-example-go), [amp-example-rust](https://github.com/amphitheatre-app/amp-example-rust), [amp-example-java](https://github.com/amphitheatre-app/amp-example-java), [amp-example-python](https://github.com/amphitheatre-app/amp-example-python)).
 The website source-code lives at [amphitheatre-app/website](https://github.com/amphitheatre-app/website).
